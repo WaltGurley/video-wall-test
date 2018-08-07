@@ -5,23 +5,53 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bibliophilia</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Titillium+Web" rel="stylesheet">
+    <title>Immersive Scholar Template</title>
   <link href="app.css" rel="stylesheet"></head>
   <body>
-    <main id="content-holder" class="container">
-      <header class="project-info">
-        <h1 class="large-header project-title">Bibliophilia</h1>
-        <p class="standard-paragraph project-description">
-          <span class="cod-style">College of Design, 2017.</span> Currently library holdings searches in web browsers return titles and general descriptions 📦 but little to suggest the spirit and design of books. In the summer of 2018 the N.C. State Libraries are moving many of the books currently located in D.H. Hill Library’s oversize 🐡 section into the book bot 🤖 inventory of Hunt Library, making it no longer possible to freely browse through them for material and visual characteristics 😥. Before this happened, an alphabet of <i>Graphic Design</i> (GD) sophomores, with four to spare, got one last browsing adventure 🗺 in that glorious oversize section, which is an A-to-Z microcosm of the library’s holdings, a selection of all books too large to fit in the regular stacks 📚, many bigger than this sentence is long. Thirty (30) students bring 30 (thirty) books to life in ninety (90) animated gifs 🎁. This is a celebration 🎏 of browsing the shelves of a library.
-        </p>
-      </header>
-      <footer class="attributions">
-        <h1>THESE ARE THE ATTRIBUTIONS</h1>
-      </footer>
+    <main class="main-container">
+      <div class="main-txt">
+          <h1 class="main-title">Hopscotch to <span class="symbol">&infin;</span></h1>
+          <h2 class="researcher-name">Radmila Sazdanovi&#263;</h2>
+          <p class="main-desc inner-desc">Main project description. At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non-provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+          <p class="main-url inner-url">Learn more about <span class="researcher-name-insert">Radmila</span>'s work at <a href="https://github.ncsu.edu" target="_blank">http://github.ncsu.edu</a>.</p>
+          <br>
+      </div>
+      <div class="matrix">
+        <!-- Images will be inserted here -->
+      </div>
+      <div class="matrix-popup">
+        <div class="popup-img-area">
+          <!-- Image sources are assigned here -->
+          <img class="popup-item" id="primary-popup-img">
+            <div class="secondary-img-slides">
+              <img class="secondary-img hidden">
+              <img class="secondary-img hidden">
+              <img class="secondary-img hidden">
+              <img class="secondary-img hidden">
+            </div>
+        </div>
+        <div class="popup-txt-area">
+          <!-- Text content is inserted here -->
+          <h3 class="project-title"></h3>
+          <p class="project-story"></p>
+          <p class="project-url">Learn more about "<span class="project-name-insert">(project name)</span>" at <a href="https://github.ncsu.edu" target="_blank">http://github.ncsu.edu</a>.</p>
+        </div>
+      </div>
+
+      <!-- TODO make this part less messy -->
+      <!-- The main-url-container and outer-desc elements are for alternative grid layouts -->
+      <!-- Making outer-desc visible and inner-url invisible means the desc will appear outside the main-txt container -->
+
+      <div class="imm-sch-url-container">
+        <img src="67e4cd589c5c6c638ff400e77d019893.png" id="logo">
+        <p class="imm-sch-url">This display is part of the Immersive Scholar project. Learn more about Immersive Scholar at <a href="https://www.immersivescholar.org/" target="_blank">https://www.immersivescholar.org/</a>.</p>
+      </div>
+
+      <div class="outer-desc">
+        <p class="main-desc">Main project description. At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non-provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+      </div>
+
     </main>
   <script type="text/javascript" src="app.bundle.js"></script></body>
 </html>
-
-<!-- <div class="content-tile">
-  <img src="https://media.giphy.com/media/c01Cu1ZSjCUtq/giphy.gif" alt="" class="main-content-img">
-</div> -->
